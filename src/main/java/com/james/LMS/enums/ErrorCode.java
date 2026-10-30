@@ -31,7 +31,9 @@ public enum ErrorCode {
   CATEGORY_NOT_FOUND("1022", "Category not found"),
   CHEF_PROFILE_NOT_FOUND("1023", "Chef application not found"),
   BOOKING_NOT_FOUND("1024", "Booking not found"),
-  DISH_NOT_FOUND("1025", "One or more dishes were not found");
+  DISH_NOT_FOUND("1025", "One or more dishes were not found"),
+  CHAT_CONVERSATION_NOT_FOUND("1026", "Chat conversation not found"),
+  CHAT_MESSAGE_NOT_FOUND("1027", "Chat message not found");
 
   private final String code;
   private final String message;

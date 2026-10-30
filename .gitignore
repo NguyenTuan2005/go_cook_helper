@@ -8,3 +8,8 @@ frontend/dist/
 src/main/resources/static/app/
 docs/
 *.md/
+
+.claude
+CLAUDE.md
+specs
+tasks
