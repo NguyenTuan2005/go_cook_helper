@@ -28,6 +28,7 @@ import AdminResourcePage from "../components/admin/AdminResourcePage";
 import AdminReports from "../pages/admin/AdminReports";
 import AdminSettings from "../pages/admin/AdminSettings";
 import { adminSectionKeys } from "../types/AdminTypes";
+import { ChatPage } from "../pages/ChatPage";
 
 export const router = createBrowserRouter(
   [
@@ -36,6 +37,7 @@ export const router = createBrowserRouter(
       children: [
         { path: "/become-chef", element: <BecomeChefPage /> },
         { path:"/demo", element : <DemoPage/>},
+        { path: "/chat", element: <ChatPage /> },
         {
           path: "/seller",
           element: <SellerDemoLayout />,

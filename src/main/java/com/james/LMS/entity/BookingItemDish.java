@@ -1,6 +1,6 @@
 package com.james.LMS.entity;
 
-import jakarta.persistence.*;
+import  jakarta.persistence.*;
 import lombok.*;
 import lombok.experimental.SuperBuilder;
 
